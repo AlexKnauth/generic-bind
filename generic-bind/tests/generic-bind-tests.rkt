@@ -647,3 +647,4 @@
               (hasheqv 1 'c 2 'c 3 'c))
 (check-exn-arity (thunk (~for*/hasheqv ([x (list 1 2 3)] [y '(a b c)]) x)))
 (check-exn-arity (thunk (~for*/hasheqv ([x (list 1 2 3)] [y '(a b c)]) (values x x x))))
+
